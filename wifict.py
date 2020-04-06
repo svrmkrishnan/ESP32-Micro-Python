@@ -1,7 +1,7 @@
 import network,time
 
-user = "vivo 1917"               #wifi name
-password = "sivakrish"           #wifi Password
+user = "wifi name"               #wifi name
+password = "wifi password"           #wifi Password
 
 n = network.WLAN(network.STA_IF)   #wifi port Configuration
 n.active(True)                     #wifi port activation
